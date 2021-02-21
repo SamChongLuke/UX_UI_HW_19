@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FDF6F0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+header.navigation {
+    padding-top: 16px;
+}
+
+nav.inlineBlock {
+
+    float: right;
+}
+
+ul.inlineBlock {
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 665px;
+}
+
+h1 {
+    font-family: 'Abril Fatface';
+    font-size: 36px;
+    padding-bottom: 48px;
+
+}
+
+p {
+    font-size: 17px;
+}
+
+button {
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 20px;
+    width: 315px;
+    height: 62px;
+    background-color: #FDF6F0;
+    border-color: #333333;
+    border-radius: 5px;
+    border-width: 0.5px;
+    font-weight: lighter;
+    box-shadow: 5px 5px rgb(163, 163, 163);
+
+}
+
+img.hamburgerMenu  {
+    padding-right: 50px;
+    display: none;
+}
+
+#hero {
+    padding-top: 32px;
+    padding-bottom: 40px;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-template-rows: 848px; */
+    /* grid-template-areas: "heroSummary heroImage"; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#heroSummary {
+    grid-area: heroSummary;
+    /*background-color: blue;*/
+    padding-left: 50px;
+   
+
+}
+
+p.summary {
+    padding-bottom: 48px;
+    width: 700px;
+}
+
+#heroImage {
+    /* padding-left: 120px; */
+    padding-right: 50px;
+}
+
+#contentGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 386px 386px 386px;
+    grid-template-areas: "project1 thumbnail1""project2 thumbnail2""project3 thumbnail3";
+}
+
+p.projectDescription {
+    max-width: 550px;
+}
+#project1 {
+
+    /*background-color: blue;*/
+    grid-area: project1;
+    margin-left: 50px;
+
+
+}
+
+#project2 {
+
+    /*background-color: crimson;*/
+    grid-area: project2;
+    margin-left: 50px;
+
+}
+
+#project3 {
+
+    /*background-color: darkgoldenrod;*/
+    grid-area: project3;
+    margin-left: 50px;
+}
+
+#thumbnail1 {
+    background-image: url(../images/NOAHtthumbnail.png);
+    grid-area: thumbnail1;
+}
+
+#thumbnail2 {
+    background-image: url(../images/Argi-food.png);
+    grid-area: thumbnail2;
+
+}
+
+#thumbnail3 {
+    background-image: url(../images/furniturebank.png);
+    grid-area: thumbnail3;
+}
+
+footer {
+    background-color: #AEDECF;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    /* align-items: center;  */
+}
+/* .footer { */
+    /* background-color: #AEDECF; */
+    /* display: flex; */
+    /* align-items: center; */
+
+ul.footer{
+    list-style: none;
+    display: inline-flex;
+    float: right;
+    
+}
+.social {
+    margin-left: 30px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+     
+      /*margin-right: -60px;*/
+      /*display: column;*/
+     
+    }
+
+    img.hamburgerMenu  {
+        padding-right: 50px;
+        display: flex;
+    }
+
+    p.summary {
+        width: 400px;
+    }
+    .logo {
+        margin-left: 110px;
+    }
+
+    ul.inlineBlock {
+        display: none;
+    }
+    
+    #hero {
+        /* grid-template-columns: 1fr; */
+        /* grid-template-rows: 848px 848px;/ */
+        /* grid-template-areas:  */
+        /* "heroSummary" */
+        /* "heroImage"; */
+        flex-direction: column;
+    }
+
+    img {
+        margin-left: -60px;
+    }
+
+    #heroImage {
+        padding-right: 0;
+        padding-top: 40px;
+    }
+
+    #heroSummary {
+        margin-left: 0;
+    }
+
+  
+    #contentGrid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 386px 386px 386px 386px 386px 386px;
+        grid-template-areas:
+        "project1" 
+        "thumbnail1"
+        "project2" 
+        "thumbnail2"
+        "project3" 
+        "thumbnail3";
+    }
+
+    #project1 {
+      padding-top: 10%;
+    }
+
+    #project2 {
+        padding-top: 20%;
+    }
+
+    #project3 {
+        padding-top: 20%;
+    }
+    
+    .social {
+        height: 30px;
+    }
+}

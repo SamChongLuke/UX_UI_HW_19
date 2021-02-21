@@ -1,0 +1,169 @@
+* {
+    margin-left: 10px;
+   
+}
+/*body*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    color: #333333;
+    background-color: #FDF6F0;
+    ;
+}
+h1 {
+    font-family: 'Abril Fatface';
+    font-size: 36px;
+}
+
+p {
+    font-size: 17px;
+}
+/*nav*/
+
+.inlineBlock {
+    display: inline-block;
+    vertical-align: top;
+}
+li {
+    display: inline-block;
+  
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+    width: 500px;
+    margin-left: 770px;
+}
+
+/*heroImg*/
+
+.content {
+   
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "heroImageLeft heroImageRight";
+    /*background-color: teal;*/
+    justify-content: center;
+    padding-bottom: 48px;
+}
+
+button.more {
+    width: 80px;
+    height: 48px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 45%;
+    right: 7%;
+}
+#heroImageLeft {
+
+    /*background-color: yellow;*/
+    padding-top: 35%;
+ 
+}
+
+#heroImageRight { 
+
+    /*background-color: violet;*/
+    margin-left: 100px;
+}
+
+button {
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 20px;
+    width: 315px;
+    height: 62px;
+    background-color: #FDF6F0;
+    border-color: #333333;
+    border-radius: 5px;
+
+}
+
+/*projectPreview*/
+
+.projectPreview {
+    margin: 0;
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-template-areas: "projectDescription projectThumbnail";
+}
+
+#project1 {
+    margin-top: -30px;
+    height: 386px;
+    width: 730px;    
+    /*background-color: blue;*/
+    
+
+}
+
+#project2 {
+    margin-top: -30px;
+    height: 386px;
+    width: 730px;
+    /*background-color: crimson;*/
+   
+
+}
+
+#project3 {
+    margin-top: -31px;
+    height: 386px;
+    width: 730px;
+    /*background-color: darkgoldenrod;*/
+
+}
+
+.summary {
+    max-width: 547px;
+}
+
+#thumbnail1 {
+    grid-area: "projectThumbnail";
+    height: 386px;
+    width: 730px;
+    background-image: url(../images/NOAHtthumbnail.png);
+}
+
+ 
+#thumbnail2 {
+    grid-area: "projectThumbnail";
+    height: 386px;
+    width: 730px;
+    background-image: url(../images/Argi-food.png);
+}
+
+#thumbnail3 {
+    grid-area: "projectThumbnail";
+    height: 386px;
+    width: 730px;
+    background-image: url(../images/furniturebank.png);
+
+}
+/*footer*/
+
+footer {
+  
+    width: 1440px;
+    margin-left: -30px;
+    margin-bottom: -25px;
+   display: inline-block;
+   background-color: #AEDECF;
+   
+}
+
+.copyrigh {
+
+    margin-top: 10px;
+}
+
+#links {
+    justify-content: space-evenly;
+    margin-left: 950px;
+}
+
