@@ -29,6 +29,11 @@ ul.inlineBlock {
     justify-content: space-evenly;
     width: 665px;
 }
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+   
+}
 
 h1 {
     font-family: 'Abril Fatface';
@@ -53,6 +58,12 @@ button {
     font-weight: lighter;
     box-shadow: 5px 5px rgb(163, 163, 163);
 
+}
+
+button:hover {
+    background-color: #AEDECF;
+    border-color: #AEDECF;
+    cursor: pointer;
 }
 
 img.hamburgerMenu  {
@@ -135,6 +146,10 @@ p.projectDescription {
 
 }
 
+#thumbnail2:hover {
+
+    /* background-color: rgba(0, 0, 0, 0.5); */
+} 
 #thumbnail3 {
     background-image: url(../images/furniturebank.png);
     grid-area: thumbnail3;
@@ -163,13 +178,11 @@ ul.footer{
 
 }
 
+.social:hover {
+    background-color: white;
+}
+
 @media only screen and (max-width: 600px) {
-    body {
-     
-      /*margin-right: -60px;*/
-      /*display: column;*/
-     
-    }
 
     img.hamburgerMenu  {
         padding-right: 50px;
