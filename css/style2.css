@@ -30,7 +30,7 @@ ul.inlineBlock {
     width: 665px;
 }
 li:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     cursor: pointer;
    
 }
@@ -59,13 +59,12 @@ button {
     box-shadow: 5px 5px rgb(163, 163, 163);
 
 }
-
-button:hover {
-    background-color: #AEDECF;
-    border-color: #AEDECF;
-    cursor: pointer;
-    font-weight:500;
-}
+#resumeLink:hover {
+    /* background-color: #AEDECF;
+    border-color: #AEDECF; */
+    cursor:pointer;
+   
+} 
 
 img.hamburgerMenu  {
     padding-right: 50px;
