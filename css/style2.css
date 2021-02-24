@@ -74,7 +74,7 @@ img.hamburgerMenu  {
 }
 
 #hero {
-    padding-top: 32px;
+    padding-top: 24px;
     padding-bottom: 40px;
     /* display: grid; */
     /* grid-template-columns: 1fr 1fr; */
@@ -96,12 +96,13 @@ img.hamburgerMenu  {
 
 p.summary {
     padding-bottom: 48px;
-    width: 700px;
+    width: 660px;
 }
 
 #heroImage {
     /* padding-left: 120px; */
     padding-right: 65px;
+  
 }
 
 #contentGrid {
