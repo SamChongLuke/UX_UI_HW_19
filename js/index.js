@@ -63,3 +63,15 @@ console.log(helloWorld);
   $("#nav").on("click", function(){
       window.location.replace('https://samchongluke.github.io/UX_UI_HW_18/');
   });
+
+  $("#thumbnail2").mouseover(function(){
+    $('#thumbnail2').css('background-image','url(images/Agri-foodhover.png)');   
+ });
+
+ $("#thumbnail2").mouseout(function(){
+    $('#thumbnail2').css('background-image','url(images/Argi-food.png)');   
+ });
+
+ $("#linkedin").mouseover(function(){
+     $("#linkedin").html('img','src="images/VectorLinkedinw.png"');
+ });
