@@ -72,6 +72,6 @@ console.log(helloWorld);
     $('#thumbnail2').css('background-image','url(images/Argi-food.png)');   
  });
 
- $("#linkedin").mouseover(function(){
-     $("#linkedin").html('img','src="images/VectorLinkedinw.png"');
- });
+//  $("#linkedin").mouseover(function(){
+//      $("#linkedin").html('img','src="images/VectorLinkedinw.png"');
+//  });
