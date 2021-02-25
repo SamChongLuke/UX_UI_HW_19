@@ -124,7 +124,8 @@ p.projectDescription {
     /* background-color: #B8D6F0; */
     grid-area: project1;
     margin-left: 50px;
-    margin-bottom: 48px;
+    align-items: center;
+    padding-top: 15%;
 
 
 }
@@ -134,7 +135,8 @@ p.projectDescription {
     /*background-color: crimson;*/
     grid-area: project2;
     margin-left: 50px;
-    margin-bottom: 48px;
+   
+    padding-top: 15%;
 
 }
 
@@ -143,19 +145,19 @@ p.projectDescription {
     /*background-color: darkgoldenrod;*/
     grid-area: project3;
     margin-left: 50px;
-    margin-bottom: 48px;
+    padding-top: 15%;
 }
 
 #thumbnail1 {
     background-image: url(../images/NOAHtthumbnail.png);
     grid-area: thumbnail1;
-    margin-bottom: 48px;
+   
 }
 
 #thumbnail2 {
     background-image: url(../images/Argi-food.png);
     grid-area: thumbnail2;
-    margin-bottom: 48px;
+    
 
 }
 
@@ -167,7 +169,7 @@ p.projectDescription {
 #thumbnail3 {
     background-image: url(../images/furniturebank.png);
     grid-area: thumbnail3;
-    margin-bottom: 48px;
+   
 }
 
 footer {
