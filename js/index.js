@@ -75,3 +75,11 @@ console.log(helloWorld);
 //  $("#linkedin").mouseover(function(){
 //      $("#linkedin").html('img','src="images/VectorLinkedinw.png"');
 //  });
+
+$("#linkedin").on("click", function(){
+    window.open('https://www.linkedin.com/in/samantha-chong-luke-363796102/');
+});
+
+$("#github").on("click", function(){
+    window.open('https://github.com/SamChongLuke');
+});

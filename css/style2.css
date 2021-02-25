@@ -114,17 +114,20 @@ p.summary {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 386px 386px 386px;
     grid-template-areas: "project1 thumbnail1""project2 thumbnail2""project3 thumbnail3";
+    padding-top: 48px;
+    padding-bottom: 120px;
 }
 
 p.projectDescription {
     max-width: 550px;
 }
+.content {
+    margin-left: 50px;
+}
 #project1 {
 
-    /* background-color: #B8D6F0; */
+    background-color: #B8D6F0;
     grid-area: project1;
-    margin-left: 50px;
-    align-items: center;
     padding-top: 15%;
 
 
@@ -132,19 +135,16 @@ p.projectDescription {
 
 #project2 {
 
-    /*background-color: crimson;*/
+    background-color: #BDDFAF;
     grid-area: project2;
-    margin-left: 50px;
-   
     padding-top: 15%;
 
 }
 
 #project3 {
 
-    /*background-color: darkgoldenrod;*/
+    background-color:#FFC772;
     grid-area: project3;
-    margin-left: 50px;
     padding-top: 15%;
 }
 
@@ -277,7 +277,7 @@ ul.footer{
         "thumbnail3";
     }
 
-    #project1 {
+    /* #project1 {
       padding-top: 10%;
     }
 
@@ -287,7 +287,7 @@ ul.footer{
 
     #project3 {
         padding-top: 20%;
-    }
+    } */
     
     .social {
         height: 30px;
