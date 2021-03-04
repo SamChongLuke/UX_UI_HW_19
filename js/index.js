@@ -64,6 +64,10 @@ console.log(helloWorld);
       window.location.replace('https://samchongluke.github.io/UX_UI_HW_18/');
   });
 
+  $("#nav2").on("click", function(){
+    window.location.replace('https://samchongluke.github.io/UX_UI_HW_20/');
+});
+
   $("#thumbnail2").mouseover(function(){
     $('#thumbnail2').css('background-image','url(images/Agri-foodhover.png)');   
  });
